@@ -1,0 +1,10 @@
+import java.util.Scanner; 
+
+public class uh {
+  public static void main(String[] args) { 
+    Scanner scanner = new Scanner(System.in); 
+    System.out.println("uh... hey.. what's ur name..?");
+    String name = scanner.nextLine(); 
+    System.out.println("oh... hi " + name + "... how ya doin?"); 
+  }
+}
